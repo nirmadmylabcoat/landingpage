@@ -11,7 +11,7 @@ body.loading {
       display: flex;
       align-items: center;
       justify-content: center;
-      &.image-1 {
+      &.model1a {
         width: 400px;
         left: 16%;
         bottom: 14%;
@@ -20,7 +20,7 @@ body.loading {
           bottom: 28%;
         }
       }
-      &.image-3 {
+      &.model2a {
         width: 300px;
         right: 12%;
         top: 8%;
@@ -29,7 +29,7 @@ body.loading {
           right: 4%;
         }
       }
-      &.image-4 {
+      &.model3a {
         max-width: 400px;
         width: 40%;
         right: 20%;
@@ -39,7 +39,7 @@ body.loading {
           bottom: 32%;
         }
       }
-      &.image-5 {
+      &.model {
         width: 280px;
         left: 14%;
         top: 12%;
