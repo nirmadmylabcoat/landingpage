@@ -8,26 +8,26 @@ const Header = () => {
     animate={{ opacity: 1, y: 0}}
     transition={{ ease: "easeInOut", duration: 1, delay: .6}}>
       <div className="header-inner">
-        <div className="logo">mini</div>
+        <div className="logo">gaze.</div>
         <nav className="nav">
           <li>
-            <a href="/design">Design</a>
+            <a href="/design">Men</a>
           </li>
           <li>
-            <a href="/strategy">Strategy</a>
+            <a href="/strategy">Women</a>
           </li>
           <li>
-            <a href="/cases">Cases</a>
+            <a href="/cases">Trending Collection</a>
           </li>
           <li>
             <a href="/about">About</a>
           </li>
           <li>
-            <a href="/why">Why work with us?</a>
+            <a href="/why">Why us?</a>
           </li>
         </nav>
         <div className="contact">
-          <a href="/contact">Let's work together</a>
+          <a href="/contact">Shopping Cart</a>
         </div>
         <div className="hamburger-menu">
           <span></span>

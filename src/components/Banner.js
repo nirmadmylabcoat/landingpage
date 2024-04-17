@@ -71,8 +71,7 @@ const BannerRowTop = ({ title }) => {
       }}
       >
         <span className="row-message">
-          We are specialised in setting up the foundation of your brand and
-          setting you up for success.
+          Get their heads turning when you step inside the room. Every time.
         </span>
       </motion.div>
     </div>

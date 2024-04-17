@@ -22,14 +22,18 @@
     }
     .row-title,
     .row-letter {
-      font-size: 28rem;
+      font-size: 20rem;
       font-weight: 500;
       position: relative;
+      left: 3%;
       letter-spacing: -0.8rem;
       display: inline-block;
       white-space: nowrap;
+      @media (max-width: $layout-breakpoint-small) {
+        font-size: 12rem;
+      }
       @media (max-width: $layout-breakpoint-xsmall) {
-        font-size: 13rem;
+        font-size: 8rem;
       }
     }
     .row-col {
@@ -37,7 +41,7 @@
       display: flex;
       align-content: center;
       justify-content: center;
-      @media (max-width: $layout-breakpoint-medium) {
+      @media (max-width: $layout-breakpoint-xsmall) {
         width: 70%;
       }
       @media (max-width: 1240px) {
@@ -45,20 +49,20 @@
           display: none;
         }
       }
-      @media (max-width: $layout-breakpoint-xsmall) {
+      @media (max-width: $layout-breakpoint-small) {
         width: 100%;
         justify-content: flex-start;
       }
       .row-message {
         font-weight: 500;
-        font-size: 1.8rem;
-        line-height: 2.6rem;
-        width: 320px;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        width: 260px;
       }
     }
     .scroll {
-      height: 160px;
-      width: 160px;
+      height: 100px;
+      width: 100px;
       border-radius: 100%;
       background: $white;
       position: absolute;
@@ -66,8 +70,8 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      left: 160px;
-      @media (max-width: $layout-breakpoint-medium) {
+      left: 130px;
+      @media (max-width: $layout-breakpoint-small) {
         left: 60px;
       }
       @media (max-width: 1240px) {
@@ -96,18 +100,21 @@
   align-items: center;
   justify-content: center;
   img {
-    width: 800px;
+    width: 550px;
     display: flex;
+    @media (max-width: $layout-breakpoint-small) {
+      width: 300px;
+    }
   }
   &.final {
     display: block;
-    top: -128px;
+    top: -90px;
     position: relative;
     width: 90%;
     margin: 0 auto;
     z-index: -100;
-    @media (max-width: $layout-breakpoint-xsmall) {
-      top: -56px;
+    @media (max-width: $layout-breakpoint-small) {
+      top: -48px;
     }
     img {
       width: 100%;

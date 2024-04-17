@@ -12,40 +12,44 @@ body.loading {
       align-items: center;
       justify-content: center;
       &.model1a {
-        width: 400px;
-        left: 16%;
+        width: 200px;
+        left: 14%;
         bottom: 14%;
-        @media (max-width: $layout-breakpoint-xsmall) {
+        @media (max-width: $layout-breakpoint-small) {
+          width: 100px;
           left: 4%;
-          bottom: 28%;
+          bottom: 20%;
         }
       }
       &.model2a {
-        width: 300px;
-        right: 12%;
+        width: 200px;
+        right: 16%;
         top: 8%;
-        @media (max-width: $layout-breakpoint-xsmall) {
-          top: 16%;
-          right: 4%;
+        @media (max-width: $layout-breakpoint-small) {
+          width: 110px;
+          top: 20%;
+          right: 5%;
         }
       }
       &.model3a {
-        max-width: 400px;
+        max-width: 200px;
         width: 40%;
-        right: 20%;
+        right: 14%;
         bottom: 10%;
-        @media (max-width: $layout-breakpoint-xsmall) {
-          right: 6%;
-          bottom: 32%;
+        @media (max-width: $layout-breakpoint-small) {
+          width: 110px;
+          right: 3%;
+          bottom: 22%;
         }
       }
       &.model {
-        width: 280px;
-        left: 14%;
+        width: 200px;
+        left: 16%;
         top: 12%;
-        @media (max-width: $layout-breakpoint-xsmall) {
-          left: 6%;
-          top: 18%;
+        @media (max-width: $layout-breakpoint-small) {
+          width: 100px;
+          left: 5%;
+          top: 22%;
         }
       }
       img {
