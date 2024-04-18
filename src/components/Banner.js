@@ -46,9 +46,9 @@ const Banner = () => {
 
 const AnimatedLetters = ({ title, disabled }) => (
   <motion.span className="row-title"
-  variants={disabled? null : banner}
-  initial="initial"
-  animate="animate">
+    variants={disabled ? null : banner}
+    initial="initial"
+    animate="animate">
     {[...title].map((letter) => (
       <motion.span className="row-letter" variants={letterAnimation}>{letter}</motion.span>
     ))}
@@ -62,16 +62,17 @@ const BannerRowTop = ({ title }) => {
         <AnimatedLetters title={title} />
       </div>
       <motion.div className="row-col"
-      initial={{opacity: 0, y: 80}}
-      animate={{opacity: 1, y: 0}}
-      transition={{
-        ease: 'easeInOut',
-        duration: 1,
-        delay: 0.4,
-      }}
+        initial={{ opacity: 0, y: 80 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{
+          ease: 'easeInOut',
+          duration: 1,
+          delay: 0.4,
+        }}
       >
         <span className="row-message">
-          Get their heads turning when you step inside the room. Every time.
+          Turn Heads With Our Chicest Fashion Picks, Grab Yours Now.
+          Only On Gaze.
         </span>
       </motion.div>
     </div>
@@ -81,22 +82,22 @@ const BannerRowTop = ({ title }) => {
 const BannerRowBottom = ({ title }) => {
   return (
     <div className={"banner-row center"}>
-      <motion.div className="scroll" 
-      initial={{scale:0}}
-      animate={{scale:1}}
-      transition={{ease: [0.6, 0.01, -0.05, 0.95], duration: 1, delay: 1}}>
+      <motion.div className="scroll"
+        initial={{ scale: 0 }}
+        animate={{ scale: 1 }}
+        transition={{ ease: [0.6, 0.01, -0.05, 0.95], duration: 1, delay: 1 }}>
         <motion.span
-        initial={{opacity:0}}
-        animate={{opacity:1}}
-        transition={{ease: "easeInOut", duration: 1, delay: 1.8}}>
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ ease: "easeInOut", duration: 1, delay: 1.8 }}>
           scroll
-          </motion.span>
+        </motion.span>
         <motion.span
-        initial={{opacity:0}}
-        animate={{opacity:1}}
-        transition={{ease: "easeInOut", duration: 1, delay: 1.8}}>
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ ease: "easeInOut", duration: 1, delay: 1.8 }}>
           down
-          </motion.span>
+        </motion.span>
       </motion.div>
       <AnimatedLetters title={title} />
     </div>

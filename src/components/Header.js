@@ -23,7 +23,7 @@ const Header = () => {
             <a href="/about">About</a>
           </li>
           <li>
-            <a href="/why">Why us?</a>
+            <a href="/why">Why choose us?</a>
           </li>
         </nav>
         <div className="contact">

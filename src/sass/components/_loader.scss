@@ -14,7 +14,7 @@ body.loading {
       &.model1a {
         width: 200px;
         left: 14%;
-        bottom: 14%;
+        bottom: 10%;
         @media (max-width: $layout-breakpoint-small) {
           width: 100px;
           left: 4%;
@@ -27,7 +27,7 @@ body.loading {
         top: 8%;
         @media (max-width: $layout-breakpoint-small) {
           width: 110px;
-          top: 20%;
+          top: 18%;
           right: 5%;
         }
       }
@@ -35,7 +35,7 @@ body.loading {
         max-width: 200px;
         width: 40%;
         right: 14%;
-        bottom: 10%;
+        bottom: 6%;
         @media (max-width: $layout-breakpoint-small) {
           width: 110px;
           right: 3%;
@@ -45,7 +45,7 @@ body.loading {
       &.model {
         width: 200px;
         left: 16%;
-        top: 12%;
+        top: 10%;
         @media (max-width: $layout-breakpoint-small) {
           width: 100px;
           left: 5%;
